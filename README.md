@@ -35,7 +35,7 @@ BusyBuy is a React application that simplifies the online shopping experience. I
 1. Clone the repository:
 
 ```bash
-git clone [https://github.com/arjunsutharr/busy-buy](https://github.com/arjunsutharr/busy-buy)
+git clone [https://github.com/arjunsutharr/busy-buy-2](https://github.com/arjunsutharr/busy-buy-2)
 ```
 
 2. Navigate to the project directory:
