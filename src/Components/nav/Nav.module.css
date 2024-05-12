@@ -1,0 +1,41 @@
+.nav_container {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  padding: 0rem 3.5rem;
+  box-shadow: 1px 0px 10px 0px salmon;
+  color: salmon;
+}
+
+.nav_details {
+  margin-left: 1rem;
+}
+
+.navLink {
+  margin-left: 1rem;
+  border: none;
+  background-color: transparent;
+  text-decoration: none;
+  color: #282c3f;
+  font-weight: 700;
+  font-size: 1rem;
+}
+
+.navLink:hover,
+.logoutLink:hover {
+  color: salmon;
+  transition: all 0.1s ease-in-out;
+}
+
+.logoutLink {
+  display: inline-flex;
+  gap: 0.1rem;
+  color: black;
+  text-decoration: none;
+  align-items: center;
+}
+
+.logoLink {
+  color: salmon;
+  text-decoration: none;
+}

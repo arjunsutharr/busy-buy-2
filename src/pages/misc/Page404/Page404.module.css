@@ -1,0 +1,27 @@
+* {
+  box-sizing: border-box;
+}
+.container {
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.button {
+  width: fit-content;
+  padding: 0.5rem 1rem;
+  background-color: salmon;
+  outline-color: transparent;
+  border: none;
+  color: white;
+  font-weight: 500;
+  cursor: pointer;
+  border: 1px solid salmon;
+}
+
+.button:hover {
+  background-color: rgb(254, 106, 90);
+  border: none;
+}

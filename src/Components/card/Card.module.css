@@ -1,0 +1,52 @@
+.cardContainer {
+  width: clamp(200px, 22%, 400px);
+  height: fit-content;
+  border: 1px solid darkgray;
+  border-radius: 2px;
+  box-shadow: 0px 0px 5px 0px darkgray;
+  color: #31364d;
+  background-color: white;
+}
+
+.imgContainer {
+  height: 40vh;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.cardContainer img {
+  margin-top: 1rem;
+  width: 50%;
+  margin-bottom: 1rem;
+  position: absolute;
+}
+
+.cardContainer h4 {
+  text-align: left;
+  margin: 0.2rem 0rem;
+}
+
+.cardContainer button {
+  width: 100%;
+  padding: 0.7rem;
+  border-radius: 2px;
+  border: 1px solid salmon;
+  background-color: salmon;
+  cursor: pointer;
+  font-weight: 700;
+  margin-top: 1rem;
+  box-shadow: 1px 1px 5px 0px darkgray;
+}
+
+.cardContainer button:hover {
+  color: white;
+  border: 1px solid white;
+  transition: all 0.1s ease-in-out;
+}
+
+.details {
+  padding: 0.4rem;
+}
